@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniFlix - Streaming Anime Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-play-circle"></i>AniFlix</a>
+        <ul class="nav-menu">
+            <li><a href="#" class="active">Beranda</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">Baru</a></li>
+            <li><a href="#">Daftar</a></li>
+        </ul>
+        <div class="header-actions">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Cari anime...">
+            </div>
+            <a href="#" class="btn">Login</a>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="hero-bg" alt="Anime Background">
+        <div class="hero-content">
+            <h1>Streaming Anime <span>Premium</span> Tanpa Iklan</h1>
+            <p>Nikmati koleksi anime terlengkap dengan kualitas HD. Tersedia subtitle Indonesia dan English. Update episode baru setiap hari!</p>
+            <div class="hero-btns">
+                <a href="#" class="btn">Mulai Menonton</a>
+                <a href="#" class="btn btn-secondary">Jelajahi Anime</a>
+            </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="hero-image" alt="Featured Anime">
+    </section>
+    
+    <!-- Trending Anime -->
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">Anime Trending Minggu Ini</h2>
+            <a href="#" class="view-all">Lihat Semua <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="anime-grid">
+            <!-- Anime cards will be loaded by JavaScript -->
+        </div>
+    </section>
+    
+    <!-- Categories Section -->
+    <section class="section">
+        <h2 class="section-title">Jelajahi Berdasarkan Genre</h2>
+        <div class="categories">
+            <div class="category-grid">
+                <!-- Categories will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- New Releases -->
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">Rilisan Baru</h2>
+            <a href="#" class="view-all">Lihat Semua <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="anime-grid new-releases">
+            <!-- New releases will be loaded by JavaScript -->
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>AniFlix</h3>
+                <p>Platform streaming anime terbaik dengan koleksi terlengkap dan kualitas HD. Nikmati anime favoritmu tanpa iklan!</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Menu</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Anime List</a></li>
+                    <li><a href="#">Genre</a></li>
+                    <li><a href="#">Film</a></li>
+                    <li><a href="#">Berita</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Kategori</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Comedy</a></li>
+                    <li><a href="#">Drama</a></li>
+                    <li><a href="#">Fantasy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Dukungan</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Bantuan</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                    <li><a href="#">Kontak Kami</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            &copy; 2025 AniFlix. All rights reserved.
+        </div>
+    </footer>
+    
+    <!-- Floating Navigation -->
+    <div class="floating-nav">
+        <a href="#" class="floating-btn">
+            <i class="fas fa-search"></i>
+        </a>
+        <a href="#" class="floating-btn">
+            <i class="fas fa-bookmark"></i>
+        </a>
+        <a href="#" class="floating-btn">
+            <i class="fas fa-user"></i>
+        </a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
